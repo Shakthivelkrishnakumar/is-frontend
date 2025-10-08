@@ -87,15 +87,13 @@ export default function Home() {
       <div className="flex items-center justify-center flex-col gap-y-5 h-[80vh] max-[1165px]:gap-y-3">
         <div className="bg-red-600 w-1/2 p-4 mb-20 rounded-lg flex items-center justify-center text-white text-sm font-light max-[1165px]:w-[90%] max-[602px]:w-full max-[602px]:text-sm">
           <p>
-            <b className="text-lg">Dear Users,</b>
+            <b className="text-lg"> Dear Users, </b>
             <br />
-            We&apos;re introducing a new and improved system to help you manage
-            your files more securely and efficiently. As part of this upgrade,
-            the site is currently undergoing maintenance, and all existing data
-            will be removed. We strongly recommend backing up your files before
-            continuing. We apologize for any inconvenience and appreciate your
-            understanding.
-          </p>
+            VAULT is an anonymity-focused file sharing platform requiring no login or personal details.
+Files are encrypted on the client side, ensuring the server never sees plaintext data.
+Each file has a unique locker name and passkey for secure, private access.
+Designed for sensitive data, it balances usability with strong end-to-end information security.
+               </p>
         </div>
         <div className="flex items-center justify-center gap-10 text-5xl max-[1165px]:text-3xl max-[602px]:text-xl max-[602px]:gap-3">
           <h1 className="flex items-center justify-center gap-2 max-[602px]:gap-1">
@@ -133,11 +131,11 @@ export default function Home() {
         </div>
 
         <h1 className="text-grey font-light text-2xl max-[1165px]:text-lg max-[602px]:text-sm">
-          Open Source File Sharing Platform
+          Secured File Sharing Platform
         </h1>
 
         <span className="flex items-center justify-center gap-5 font-light w-1/2 max-[1165px]:w-[90%] max-[1165px]:text-sm max-[602px]:w-full max-[602px]:gap-2">
-          <p className="max-[602px]:hidden">vouz.tech/locker/</p>
+          <p className="max-[602px]:hidden"> is-frontend-three.vercel.app/locker/</p>
           <input
             type="text"
             placeholder="Enter a name for your locker"

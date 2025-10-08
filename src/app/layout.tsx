@@ -8,9 +8,9 @@ import Metrics from "@/components/metrics"
 
 
 export const metadata: Metadata = {
-  title: "VOUZ",
+  title: "VAULT",
   description:
-    "Vouz is an open-source file sharing application that requires no login. Enjoy a hasle free file sharing experience.",
+    "VAULT is an open-source file sharing application that requires no login. Enjoy a hasle free file sharing experience.",
   openGraph: {
     images: ["/assets/meta-image.png"],
   },

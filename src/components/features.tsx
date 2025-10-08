@@ -28,13 +28,6 @@ export default function Feature() {
                 simple!
               </p>
             </li>
-            <li>
-              <h1>Open Source 🌐</h1>
-              <p className="text-sm font-light">
-                Vouz is fully open-source, inviting contributions, feedback, and
-                new ideas from the community.
-              </p>
-            </li>
           </ol>
         </div>
         <div className="relative w-1/2 h-[70vh] max-[602px]:hidden">

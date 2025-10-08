@@ -7,20 +7,10 @@ export default function Navbar() {
       <Link href="/">
         <Image
           className="h-7 w-auto max-[602px]:h-4"
-          src="assets/VOUZ.svg"
+          src="assets/vault.svg"
           height={100}
           width={500}
           alt="VOUZ"
-        />
-      </Link>
-
-      <Link href="https://github.com/zadescoxp/locker-frontend" target="_blank">
-        <Image
-          className="h-6 w-auto max-[602px]:h-5"
-          src="assets/github.svg"
-          height={100}
-          width={500}
-          alt="GITHUB"
         />
       </Link>
     </div>
